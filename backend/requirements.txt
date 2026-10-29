@@ -1,0 +1,14 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+# Learned-model detector (trained Keras autoencoder). Without it the server still runs on the physics checks alone.
+tensorflow>=2.16
+# tests
+pytest>=8
+httpx>=0.27
+# Cloud MongoDB Atlas & Async Driver
+pymongo>=4.6
+motor>=3.3
+dnspython>=2.6

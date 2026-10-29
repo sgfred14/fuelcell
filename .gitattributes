@@ -1,0 +1,42 @@
+# Auto-detect text files and normalize line endings to LF on commit
+* text=auto eol=lf
+
+# Explicit text files
+*.py text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+*.csv text eol=lf
+*.sh text eol=lf
+*.env* text eol=lf
+
+# Windows-specific scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary file types (preserve exact bytes, do not touch line endings)
+*.h5 binary
+*.pyc binary
+*.pyd binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.tar.gz binary
+*.zip binary

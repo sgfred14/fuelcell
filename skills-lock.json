@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "gravitas": {
+      "source": "udaysharmadev/Gravitas",
+      "sourceType": "github",
+      "skillPath": "skills/gravitas/SKILL.md",
+      "computedHash": "c43784d217533c674f34b58ad17acb6deb53eecb0ff38ace010a36045464e0e0"
+    },
+    "react-best-practices": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "computedHash": "d2dc67bf3e85aa2630159447146eceecde653247baa6f4ad5d3bc8b4e1bd06ba"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stream Player</title>
+  <style>
+    /* Reset margins and set background */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      background-color: #0b0e14;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    /* Container maintaining standard 16:9 widescreen video ratio */
+    .player-container {
+      position: relative;
+      width: 100%;
+      max-width: 1200px;
+      aspect-ratio: 16 / 9;
+      background: #000;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    /* Make iframe fill the container cleanly */
+    .player-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="player-container">
+    <iframe 
+      src="https://ehgembxe.cfd/mbv6p42g-2891" 
+      scrolling="no" 
+      allow="autoplay; encrypted-media; picture-in-picture; fullscreen" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+</body>
+</html>
