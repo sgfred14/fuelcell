@@ -256,28 +256,6 @@ npm run build        # Production bundle build test
 
 ---
 
-## 🚀 Pushing to Your GitHub Repository
-
-To upload this project to your GitHub account:
-
-```bash
-# 1. Initialize git repository (if not already initialized)
-git init -b main
-
-# 2. Stage all project files (safe from .env, .venv, node_modules)
-git add .
-
-# 3. Create your initial commit
-git commit -m "feat: initial commit for SOFC plant utility monitor"
-
-# 4. Link your remote repository
-git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-
-# 5. Push to GitHub
-git branch -M main
-git push -u origin main
-```
-
 ---
 
 ## 📄 License
